@@ -1,0 +1,71 @@
+.sidenav {
+  background-color: #212121;
+  color: #ffffff;
+  width: 250px;
+  padding: 20px;
+  height: 95%;
+  position: fixed;
+  /* Make it fixed position */
+  top: 0;
+  /* Align to the top */
+  left: 0;
+  /* Align to the left */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  padding-top: 20px;
+  /* Add top padding */
+  margin: 15px 15px 15px 15px;
+  border-radius: 15px;
+}
+
+.sidenav-header {
+  padding: 10px 20px;
+  background-color: #2d52b9;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidenav-link {
+  color: #ffffff !important;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sidenav-link:hover {
+  background-color: #424242;
+}
+
+.sidenav-link.active {
+  background-color: #4caf50;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.sidenav-signout {
+  color: #adb5bd;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.sidenav-signout:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.sidenav-signout .sidebar-icon {
+  margin-right: 10px;
+}

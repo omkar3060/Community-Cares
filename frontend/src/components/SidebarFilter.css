@@ -1,0 +1,46 @@
+/* SidebarFilter.css */
+
+.sidebar-filter {
+  background-color: #ffffff;
+  padding: 20px;
+  /* Increased padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* Ensures full width within its column */
+  height: 500px;
+  /* Ensures it takes the full height of its parent */
+}
+
+.sidebar-filter-title {
+  font-size: 1.5rem;
+  /* Increased font size */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+  /* Increased margin */
+}
+
+.amount-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.amount-item {
+  padding: 12px;
+  /* Increased padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  /* Increased margin */
+  font-weight: bold;
+  color: #555;
+}
+
+.amount-item:hover,
+.amount-item.active {
+  background-color: #673ab7;
+  color: #fff;
+}

@@ -1,0 +1,34 @@
+.top-nav {
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Set background color */
+    padding: 10px 10px; /* Add padding to top and bottom */
+    position: fixed; /* Fix the position */
+    /* top: 0; Position at the top of the viewport */
+    width: 100%; /* Set full width */
+    z-index: 1;
+  }
+  
+  .top-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-nav-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .top-nav-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-nav-icons i {
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-right: 15px;
+  }

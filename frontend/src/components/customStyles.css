@@ -1,0 +1,7 @@
+.no-rounded-corners {
+    border-radius: 0 !important;
+}
+
+.long-button {
+    padding: 25px;/* You can adjust this value to make the button longer */
+}
