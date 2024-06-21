@@ -53,7 +53,7 @@ public class NotificationController {
             }
 
             Transport transport = session.getTransport("smtp");
-            transport.connect("smtp.gmail.com", "omkargouda306@gmail.com", "pemh spvp flns vhsv");
+            transport.connect("smtp.gmail.com", "omkargouda306@gmail.com", "");
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
 
