@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CheckoutController {
 
-    @Value("sk_test_51Osj3mSJPE3DgnU5aP9y4rW1DGutnygoRho15n2gRawZbZi4ld44dul97stPiCzqKTVz46tmyqhAo2kv7NDmBED800Oh7AS4aF")
+    @Value("")
     private String stripeSecretKey; // Your Stripe secret key
 
     @PostMapping("/create-checkout-session")
